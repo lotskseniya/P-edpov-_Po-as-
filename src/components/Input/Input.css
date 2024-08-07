@@ -1,0 +1,21 @@
+.weather-search-input {
+    background-color: #202b3c;
+    padding: 12px 10px;
+    width: 50vw;
+    height: 6vh;
+    font-weight: bold;
+    font-size: .8rem;
+    color: white !important;
+    position: relative;
+    left: 1vw;
+    border-radius: 12px;
+    border: none;
+}
+
+
+@media (min-width: 1920px) {
+    .weather-search-input {
+        height: 4.5vh;
+    }
+
+}

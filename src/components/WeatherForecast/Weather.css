@@ -1,0 +1,385 @@
+.main-weather-container {
+    display: inline-flex;
+}
+
+.weather-container {
+   height: calc(90vh - 3rem);
+}
+
+.current-weather-data {
+    position: relative;
+    width: 50vw;
+    left: -5vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.daily-temperature {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    top: -2vh;
+    left: 0.5vw;
+    background-color: #202b3c;
+    width: 50vw;
+    height: fit-content;
+    border-radius: 20px;
+    color: #707985;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.forecast-name-header {
+    font-size: 4vh;
+}
+
+.daily-hours-forecast {
+    display: inline-flex;
+}
+
+.daily-hours-forecast-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #707985;
+    width: 8vw;
+}
+
+.daily-hours-forecast-container p {
+    margin-block-start: .3rem;
+    margin-block-end: .3rem;
+}
+
+.daily-hours-forecast-container:last-of-type {
+    border-right: none;
+}
+
+.daily-hour-temperature {
+    color: white;
+}
+
+.weather-search-input {
+    background-color: #202b3c;
+    padding: 12px 10px;
+    width: 50vw;
+    height: 5vh;
+    font-weight: bold;
+    font-size: .8rem;
+    color: white !important;
+    position: relative;
+    left: 0vw;
+    top: 0vh;
+    border-radius: 10px;
+    border: none;
+}
+
+.rain-forecast-text {
+    color: #707985;
+    margin-top: -12px;
+}
+
+.temperature-forecast-text {
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+.current-weather-data {
+    height: 28vh;
+}
+
+.current-weather-data .weather-icon {
+    height: 19vh;
+}
+
+.daily-hours-forecast img {
+    height: 8vh;
+   width: auto;
+}
+
+.daily-temperature-header {
+    padding: .1rem 1rem 0;
+    font-size: .7rem;
+    font-stretch: semi-expanded;
+}
+
+.today-weather-details {
+    position: relative;
+    display: grid;
+
+    left: 0.5vw;
+    background-color: #202b3c;
+    width: 50vw;
+    height: fit-content;
+    border-radius: 20px;
+    padding-bottom: 0.5rem;
+}
+
+.details-temp {
+    padding: 0 1rem;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.today-weather-airdetails-header {
+    color: #707985;
+    font-size: .7rem;
+    font-weight: bold;
+    margin-block-start: .5rem;
+    margin-block-end: 0;
+    margin-inline-start: 2rem;
+}
+
+.today-weather-details-headers {
+    color: #707985;
+    font-size: 2.3vh;
+    font-weight: 500;
+}
+
+.today-weather-details-data {
+    color: white;
+    font-weight: bold;
+}
+
+
+.weather-details-container {
+    display: inline-flex;
+    width: 20vw;
+    margin-block-start: 0.5rem;
+}
+
+.weather-details-icons {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 0.17rem;
+}
+
+.weather-details-icons svg {
+   height: 4vh;
+   color: #707985;
+}
+
+.weather-details-container p {
+  margin-block-start: .1rem;
+  margin-block-end: .1rem;
+}
+
+.weekly-temperature {
+    position: relative;
+    display: inline-grid;
+    justify-content: space-around;
+    left: 2vw;
+    width: calc(90vw - 62vw);
+    background-color: #202b3c;
+    border-radius: 20px;
+    color: #707985;
+}
+
+.weekly-forecast-container {
+    display: inline-flex;
+    justify-content: space-between;;
+    align-items: center;
+    border-bottom: 1px solid #707985;
+    padding: .1vh;
+}
+
+.weekly-forecast-container:last-of-type {
+    border-bottom: none;
+}
+
+.main-weekly-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.weekly-container {
+    align-items: center;
+}
+
+.weekly-weather-container {
+    height: 60vh;
+}
+
+.weekly-temperature-header {
+    font-size: .7rem;
+    font-weight: bold;
+    margin-block-start: 1.5rem;
+    margin-inline-start: 1rem;
+}
+
+.daily-max-temp-text {
+    font-weight: bold;
+}
+
+.weekly-condition, .weekly-day-name, .weekly-daily-temperatures {
+   padding: 1vh 1vw;
+}
+
+.weekly-day-name p {
+    margin-block-end: 0;
+    margin-inline-end: 0;
+    margin-block-start: 0;
+    margin-inline-start: 0;
+}
+
+.weekly-condition {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.weekly-condition-text {
+    display: flex;
+    width: 7vw;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.weekly-condition-img {
+    width: 3.4vw;
+    height: auto;
+}
+
+@media (min-width: 1920px) {
+    .weather-search-input {
+        height: 4.5vh;
+        left: 1vw;
+        top: 0vh;
+    }
+
+    .weather-icon {
+        height: 23vh;
+    }
+
+    .current-weather-data {
+        height: 37vh;
+    }
+
+    .current-weather-data {
+        top: 1vh;
+    }
+
+    .daily-temperature {
+        top: 1.5vh;
+        padding: .5rem .5rem 2rem;
+        height: 16vh;
+    }
+
+    .temperature-forecast-text {
+        font-size: 8vh;
+    }
+
+
+    .forecast-icon {
+        width: 8vw;
+    }
+
+    .today-weather-details {
+            top: 3vh;
+            font-size: 3vh;
+    }
+
+    .weekly-temperature {
+        height: 79vh !important;
+    }
+
+    .forecast-name-header {
+        font-size: 5vh;
+    }
+
+    .weather-details-container {
+        margin-block-start: 0.7rem;
+    }
+
+    .weekly-temperature {
+        height: 80vh;
+    }
+
+    .weekly-forecast-container {
+        padding: 1vh;
+    }
+
+    .weekly-temperature-header {
+        margin-inline-start: 2rem;
+    }
+}
+
+
+@media (max-width: 920px) {
+    .weekly-temperature {
+        width: 21vw;
+    }
+}
+
+@media (min-width: 1280px), (max-width: 1367px) {
+   .daily-temperature {
+    padding-bottom: 1rem;
+   }
+
+   .weekly-temperature {
+    height: 77vh;
+    font-size: 16px;
+   }
+
+   .today-weather-airdetails-header {
+    margin-block-start: .4rem;
+   }
+
+   .weekly-forecast-container {
+    height: 9vh;
+   }
+}
+
+
+@media (min-width: 1300px) {
+.details-temp {
+    padding-bottom: 1rem;
+   }
+
+   .today-weather-airdetails-header {
+    margin-block-start: 1rem;
+   }
+
+   .daily-temperature {
+    padding-bottom: 2rem;
+   }
+
+   .temperature-forecast-text {
+    font-size: 7vh;
+   }
+
+   .today-weather-forecast {
+    height: 30vh;
+   }
+
+   .current-weather-data {
+    left: -2vw;
+    top: 1vh;
+   }
+
+}
+
+@media (min-width: 1600px) {
+    .details-temp {
+        padding: 1.5rem;
+    }
+
+    .today-weather-airdetails-header {
+        margin-block-start: 1.9rem;
+    }
+
+    .current-weather-data {
+        top: 2vh;
+    }
+}

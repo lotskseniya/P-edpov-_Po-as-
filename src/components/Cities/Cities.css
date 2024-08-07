@@ -1,0 +1,17 @@
+.main-container {
+    margin: 1.5vh 1.5vw;
+    background-color: #0b121e;
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.cities-container-header {
+    position: relative;
+    top: -30vh;
+    left: calc(25vw - 3rem);
+    color: #707985;
+}
